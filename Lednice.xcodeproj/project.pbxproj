@@ -11,9 +11,23 @@
 		896BF8EC29D63C6D00878DF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BF8EB29D63C6D00878DF5 /* ContentView.swift */; };
 		896BF8EE29D63C6F00878DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896BF8ED29D63C6F00878DF5 /* Assets.xcassets */; };
 		896BF8F129D63C6F00878DF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896BF8F029D63C6F00878DF5 /* Preview Assets.xcassets */; };
-		896BF8FB29D63C7000878DF5 /* LedniceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BF8FA29D63C7000878DF5 /* LedniceTests.swift */; };
-		896BF90529D63C7000878DF5 /* LedniceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BF90429D63C7000878DF5 /* LedniceUITests.swift */; };
-		896BF90729D63C7000878DF5 /* LedniceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BF90629D63C7000878DF5 /* LedniceUITestsLaunchTests.swift */; };
+		896BF91929D6EA2A00878DF5 /* FoodItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BF91829D6EA2A00878DF5 /* FoodItemCard.swift */; };
+		896BF91B29D6EF5C00878DF5 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BF91A29D6EF5C00878DF5 /* RecipeCard.swift */; };
+		896BF91D29D6EF9B00878DF5 /* RecipeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BF91C29D6EF9B00878DF5 /* RecipeItem.swift */; };
+		8974D5D92A1D722C00F7F217 /* RecipeRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8974D5D82A1D722C00F7F217 /* RecipeRecommendation.swift */; };
+		8974D5DB2A1E4D3600F7F217 /* AddNewItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8974D5DA2A1E4D3600F7F217 /* AddNewItemViewModel.swift */; };
+		8974D5DD2A1E629100F7F217 /* RecipeRecommendationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8974D5DC2A1E629100F7F217 /* RecipeRecommendationDetail.swift */; };
+		8974D5DF2A1E67EE00F7F217 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8974D5DE2A1E67EE00F7F217 /* NotificationManager.swift */; };
+		8974D5E32A1E6EF200F7F217 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8974D5E22A1E6EF200F7F217 /* .gitignore */; };
+		89792DE12A1D1AAA0088C692 /* AddNewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89792DE02A1D1AAA0088C692 /* AddNewItemView.swift */; };
+		89792DE32A1D33630088C692 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89792DE22A1D33630088C692 /* ImagePicker.swift */; };
+		89A68A272A041D1100CA2C34 /* FridgeItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A68A262A041D1100CA2C34 /* FridgeItemsView.swift */; };
+		89A68A2D2A04366C00CA2C34 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89A68A2B2A04366C00CA2C34 /* Model.xcdatamodeld */; };
+		89A68A2F2A0437C200CA2C34 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A68A2E2A0437C200CA2C34 /* DataManager.swift */; };
+		89A68A372A0440D000CA2C34 /* PreviewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A68A362A0440D000CA2C34 /* PreviewHelpers.swift */; };
+		89C235952A04485B00B096A1 /* FoodItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C235932A04485B00B096A1 /* FoodItem+CoreDataClass.swift */; };
+		89C235962A04485B00B096A1 /* FoodItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C235942A04485B00B096A1 /* FoodItem+CoreDataProperties.swift */; };
+		89C235982A044B8500B096A1 /* Seed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C235972A044B8500B096A1 /* Seed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +54,27 @@
 		896BF8ED29D63C6F00878DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		896BF8F029D63C6F00878DF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		896BF8F629D63C7000878DF5 /* LedniceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedniceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		896BF8FA29D63C7000878DF5 /* LedniceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedniceTests.swift; sourceTree = "<group>"; };
 		896BF90029D63C7000878DF5 /* LedniceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedniceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		896BF90429D63C7000878DF5 /* LedniceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedniceUITests.swift; sourceTree = "<group>"; };
-		896BF90629D63C7000878DF5 /* LedniceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedniceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		896BF91829D6EA2A00878DF5 /* FoodItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemCard.swift; sourceTree = "<group>"; };
+		896BF91A29D6EF5C00878DF5 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		896BF91C29D6EF9B00878DF5 /* RecipeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItem.swift; sourceTree = "<group>"; };
+		8974D5D82A1D722C00F7F217 /* RecipeRecommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecipeRecommendation.swift; path = ../../../../../../Applications/RecipeRecommendation.swift; sourceTree = "<group>"; };
+		8974D5DA2A1E4D3600F7F217 /* AddNewItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemViewModel.swift; sourceTree = "<group>"; };
+		8974D5DC2A1E629100F7F217 /* RecipeRecommendationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRecommendationDetail.swift; sourceTree = "<group>"; };
+		8974D5DE2A1E67EE00F7F217 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		8974D5E02A1E6C2100F7F217 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		8974D5E12A1E6C2F00F7F217 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		8974D5E22A1E6EF200F7F217 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		8974D5E42A1E754600F7F217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		89792DE02A1D1AAA0088C692 /* AddNewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemView.swift; sourceTree = "<group>"; };
+		89792DE22A1D33630088C692 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		89A68A262A041D1100CA2C34 /* FridgeItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeItemsView.swift; sourceTree = "<group>"; };
+		89A68A2C2A04366C00CA2C34 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		89A68A2E2A0437C200CA2C34 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		89A68A362A0440D000CA2C34 /* PreviewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewHelpers.swift; sourceTree = "<group>"; };
+		89C235932A04485B00B096A1 /* FoodItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		89C235942A04485B00B096A1 /* FoodItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		89C235972A044B8500B096A1 /* Seed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +105,10 @@
 		896BF8DD29D63C6D00878DF5 = {
 			isa = PBXGroup;
 			children = (
+				8974D5E22A1E6EF200F7F217 /* .gitignore */,
+				8974D5E02A1E6C2100F7F217 /* Debug.xcconfig */,
+				8974D5E12A1E6C2F00F7F217 /* Release.xcconfig */,
 				896BF8E829D63C6D00878DF5 /* Lednice */,
-				896BF8F929D63C7000878DF5 /* LedniceTests */,
-				896BF90329D63C7000878DF5 /* LedniceUITests */,
 				896BF8E729D63C6D00878DF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,10 +126,18 @@
 		896BF8E829D63C6D00878DF5 /* Lednice */ = {
 			isa = PBXGroup;
 			children = (
+				8974D5E42A1E754600F7F217 /* Info.plist */,
+				89A68A2B2A04366C00CA2C34 /* Model.xcdatamodeld */,
+				89A68A252A041CDF00CA2C34 /* Views */,
 				896BF8E929D63C6D00878DF5 /* LedniceApp.swift */,
-				896BF8EB29D63C6D00878DF5 /* ContentView.swift */,
 				896BF8ED29D63C6F00878DF5 /* Assets.xcassets */,
+				89A68A242A040DE300CA2C34 /* Models */,
 				896BF8EF29D63C6F00878DF5 /* Preview Content */,
+				89A68A232A040DC300CA2C34 /* Components */,
+				89A68A2E2A0437C200CA2C34 /* DataManager.swift */,
+				89A68A362A0440D000CA2C34 /* PreviewHelpers.swift */,
+				89C235972A044B8500B096A1 /* Seed.swift */,
+				8974D5DE2A1E67EE00F7F217 /* NotificationManager.swift */,
 			);
 			path = Lednice;
 			sourceTree = "<group>";
@@ -110,21 +150,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		896BF8F929D63C7000878DF5 /* LedniceTests */ = {
+		89A68A232A040DC300CA2C34 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				896BF8FA29D63C7000878DF5 /* LedniceTests.swift */,
+				896BF91829D6EA2A00878DF5 /* FoodItemCard.swift */,
+				896BF91A29D6EF5C00878DF5 /* RecipeCard.swift */,
+				89792DE22A1D33630088C692 /* ImagePicker.swift */,
 			);
-			path = LedniceTests;
+			name = Components;
 			sourceTree = "<group>";
 		};
-		896BF90329D63C7000878DF5 /* LedniceUITests */ = {
+		89A68A242A040DE300CA2C34 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				896BF90429D63C7000878DF5 /* LedniceUITests.swift */,
-				896BF90629D63C7000878DF5 /* LedniceUITestsLaunchTests.swift */,
+				89C235932A04485B00B096A1 /* FoodItem+CoreDataClass.swift */,
+				89C235942A04485B00B096A1 /* FoodItem+CoreDataProperties.swift */,
+				896BF91C29D6EF9B00878DF5 /* RecipeItem.swift */,
+				8974D5D82A1D722C00F7F217 /* RecipeRecommendation.swift */,
+				8974D5DA2A1E4D3600F7F217 /* AddNewItemViewModel.swift */,
+				8974D5DC2A1E629100F7F217 /* RecipeRecommendationDetail.swift */,
 			);
-			path = LedniceUITests;
+			name = Models;
+			sourceTree = "<group>";
+		};
+		89A68A252A041CDF00CA2C34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				896BF8EB29D63C6D00878DF5 /* ContentView.swift */,
+				89A68A262A041D1100CA2C34 /* FridgeItemsView.swift */,
+				89792DE02A1D1AAA0088C692 /* AddNewItemView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				896BF8F129D63C6F00878DF5 /* Preview Assets.xcassets in Resources */,
+				8974D5E32A1E6EF200F7F217 /* .gitignore in Resources */,
 				896BF8EE29D63C6F00878DF5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +314,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A68A272A041D1100CA2C34 /* FridgeItemsView.swift in Sources */,
+				89A68A2F2A0437C200CA2C34 /* DataManager.swift in Sources */,
+				8974D5DB2A1E4D3600F7F217 /* AddNewItemViewModel.swift in Sources */,
+				89C235982A044B8500B096A1 /* Seed.swift in Sources */,
+				89792DE32A1D33630088C692 /* ImagePicker.swift in Sources */,
+				896BF91B29D6EF5C00878DF5 /* RecipeCard.swift in Sources */,
+				89A68A2D2A04366C00CA2C34 /* Model.xcdatamodeld in Sources */,
+				896BF91D29D6EF9B00878DF5 /* RecipeItem.swift in Sources */,
+				8974D5DD2A1E629100F7F217 /* RecipeRecommendationDetail.swift in Sources */,
 				896BF8EC29D63C6D00878DF5 /* ContentView.swift in Sources */,
+				89792DE12A1D1AAA0088C692 /* AddNewItemView.swift in Sources */,
+				89C235952A04485B00B096A1 /* FoodItem+CoreDataClass.swift in Sources */,
+				8974D5DF2A1E67EE00F7F217 /* NotificationManager.swift in Sources */,
+				89A68A372A0440D000CA2C34 /* PreviewHelpers.swift in Sources */,
+				8974D5D92A1D722C00F7F217 /* RecipeRecommendation.swift in Sources */,
 				896BF8EA29D63C6D00878DF5 /* LedniceApp.swift in Sources */,
+				896BF91929D6EA2A00878DF5 /* FoodItemCard.swift in Sources */,
+				89C235962A04485B00B096A1 /* FoodItem+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +339,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				896BF8FB29D63C7000878DF5 /* LedniceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +346,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				896BF90529D63C7000878DF5 /* LedniceUITests.swift in Sources */,
-				896BF90729D63C7000878DF5 /* LedniceUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +367,7 @@
 /* Begin XCBuildConfiguration section */
 		896BF90829D63C7000878DF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8974D5E02A1E6C2100F7F217 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -357,6 +428,7 @@
 		};
 		896BF90929D63C7000878DF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8974D5E12A1E6C2F00F7F217 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -411,6 +483,7 @@
 		};
 		896BF90B29D63C7000878DF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8974D5E02A1E6C2100F7F217 /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,11 +492,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Lednice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lednice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,6 +512,7 @@
 		};
 		896BF90C29D63C7000878DF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8974D5E12A1E6C2F00F7F217 /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,11 +521,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Lednice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lednice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +541,7 @@
 		};
 		896BF90E29D63C7000878DF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8974D5E02A1E6C2100F7F217 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +561,7 @@
 		};
 		896BF90F29D63C7000878DF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8974D5E12A1E6C2F00F7F217 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +581,7 @@
 		};
 		896BF91129D63C7000878DF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8974D5E02A1E6C2100F7F217 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +599,7 @@
 		};
 		896BF91229D63C7000878DF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8974D5E12A1E6C2F00F7F217 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -577,6 +655,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89A68A2B2A04366C00CA2C34 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89A68A2C2A04366C00CA2C34 /* Model.xcdatamodel */,
+			);
+			currentVersion = 89A68A2C2A04366C00CA2C34 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 896BF8DE29D63C6D00878DF5 /* Project object */;
 }
